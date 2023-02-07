@@ -15,6 +15,7 @@ export default ImageGallery;
 ImageGallery.defaultProps = {
   items: [],
 };
+
 ImageGallery.propTypes = {
   items: PropTypes.arrayOf(
     PropTypes.shape({
